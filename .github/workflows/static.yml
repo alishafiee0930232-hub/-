@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>منوی کافه</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #f7f3ee;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background: #4a3f35;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 22px;
+        }
+
+        .menu-section {
+            margin: 20px;
+            padding: 15px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .menu-section h2 {
+            color: #4a3f35;
+            border-bottom: 2px solid #e0ddd9;
+            padding-bottom: 10px;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px dashed #ccc;
+            font-size: 18px;
+        }
+
+        .item:last-child {
+            border-bottom: none;
+        }
+
+        .price {
+            color: #4a3f35;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>منوی کافه مانیا</header>
+
+<div class="menu-section">
+    <h2>☕ نوشیدنی‌های گرم</h2>
+    <div class="item">
+        <span>کاپوچینو</span><span class="price">120,000</span>
+    </div>
+    <div class="item">
+        <span>لاته</span><span class="price">130,000</span>
+    </div>
+    <div class="item">
+        <span>قهوه ترک</span><span class="price">90,000</span>
+    </div>
+</div>
+
+<div class="menu-section">
+    <h2>🧊 نوشیدنی‌های سرد</h2>
+    <div class="item">
+        <span>آیس لاته</span><span class="price">150,000</span>
+    </div>
+    <div class="item">
+        <span>آیس موکا</span><span class="price">160,000</span>
+    </div>
+</div>
+
+<div class="menu-section">
+    <h2>🍰 دسر و کیک</h2>
+    <div class="item">
+        <span>چیزکیک</span><span class="price">110,000</span>
+    </div>
+    <div class="item">
+        <span>براونی</span><span class="price">95,000</span>
+    </div>
+</div>
+
+</body>
+</html>
